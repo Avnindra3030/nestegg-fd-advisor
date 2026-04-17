@@ -1,37 +1,50 @@
 # 🪺 NestEgg — AI-Powered FD Rate Advisor
-> Built for Blostem · Hack to the Future 2026
+### Blostem · Hack to the Future 2026 | Avnindra Kumar Singh
 
-## What It Does
-NestEgg is a conversational AI advisor that helps Indian investors
-find the best Fixed Deposit across Blostem's 10+ partner banks in seconds.
+---
 
-Tell it your amount, tenure, and goal → it recommends the best FD,
-calculates exact returns, explains DICGC insurance, and handles
-senior citizen bonuses automatically.
+## The Problem
+Finding the best Fixed Deposit in India is broken.
+Investors manually compare 10+ bank websites, don't understand
+DICGC insurance limits, miss senior citizen bonuses, and
+often end up in the wrong product for their risk profile.
+
+## The Solution
+NestEgg is a conversational AI advisor embedded inside
+Blostem's banking infrastructure. A user says:
+> "I have ₹2 lakhs for 1 year, I'm 62 years old, safety first"
+
+NestEgg instantly:
+- Compares rates across all Blostem partner banks
+- Applies senior citizen bonus rates automatically
+- Flags DICGC ₹5L insurance limits and suggests bank-splitting
+- Calculates exact maturity returns
+- Recommends the best FD with a clear reason why
 
 ## Why It Fits Blostem
-Blostem's SDK removes the technical barrier to FD integration for fintechs.
-NestEgg removes the *knowledge barrier* for end investors — the two layers
-work together to make FD investing truly frictionless end-to-end.
-
-## Features
-- Compares rates across 10+ banks (SFBs, NBFCs, commercial banks)
-- Calculates maturity returns for any amount + tenure
-- Explains DICGC ₹5L insurance and suggests bank-splitting strategy
-- Senior citizen rate bonuses (+0.25% to +0.75%)
-- TDS guidance (Form 15G/15H)
-- Full conversational memory across the session
+Blostem's SDK removes the **technical barrier** to FD integration
+for fintechs. NestEgg removes the **knowledge barrier** for
+end investors. The two layers together make FD investing
+truly frictionless — from bank API to customer decision.
 
 ## Tech Stack
-- Vanilla HTML/CSS/JS (zero dependencies, zero build step)
-- Anthropic Claude API (claude-sonnet) for AI reasoning
-- Blostem partner bank rate database embedded in system prompt
+- Anthropic Claude API — conversational AI reasoning
+- Blostem FD/RD API — live rate data across 10+ banks
+- React + Tailwind — clean advisor UI
+- Blostem KYC SDK — for onboarding flow (Phase 2)
 
-## Live Demo
-Open index.html in any browser. Requires an Anthropic API key.
+## Key Features
+- Natural language queries ("best FD for ₹5L, 2 years")
+- Real-time rate comparison across SFBs, NBFCs, commercial banks
+- DICGC insurance guidance and bank-split recommendations
+- Senior citizen rate detection (+0.25% to +0.75%)
+- TDS advisory (Form 15G/15H eligibility)
+- Full conversation memory within session
 
-## Sample Queries to Try
-- "I have ₹2 lakhs for 1 year, max returns"
-- "Senior citizen, ₹5 lakhs, safest option"
-- "Should I split ₹10 lakhs across banks?"
-- "Compare Small Finance Banks vs SBI"
+## Impact
+Reduces FD decision time from hours → seconds.
+Increases conversion for Blostem's fintech partners.
+Directly addresses India's ₹180 lakh crore FD market.
+
+## Team
+Avnindra Kumar Singh
